@@ -20,7 +20,8 @@ Scanner s= new Scanner(System.in);
 			System.out.println("vowel");
 			break;
 			default:
-			System.out.println("consonant");			
+			System.out.println("consonant");	
+
 		}
 	}
 
