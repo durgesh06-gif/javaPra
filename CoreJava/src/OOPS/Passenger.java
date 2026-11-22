@@ -15,15 +15,23 @@ public class Passenger {
     	System.out.println(seatnum);
     	System.out.println(depi);
     	System.out.println(dest);
- 	
     }
     
-    void sedetail() {
-    	Name="Nisha";
-		Email="nisha@gmail.com";
-		Age=25;	
-		depi="mumbai";
-		dest="tokyo";
-		seatnum=54;
+    Passenger(String Name,String Email,int seatnum,String dest,String depi,int Age) {
+    	  this.Name=Name;
+    	  this.Email=Email;
+    	  this.seatnum=seatnum;
+    	  this.dest=dest;
+    	  this.depi=depi;
+    	  this.Age=Age;
     }
+    
+   void setdetail (String Name,String Email,int seatnum,String dest,String depi,int Age) {
+  	  this.Name=Name;
+  	  this.Email=Email;
+  	  this.seatnum=seatnum;
+  	  this.dest=dest;
+  	  this.depi=depi;
+  	  this.Age=Age;
+  }
 }

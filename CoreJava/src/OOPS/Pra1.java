@@ -6,14 +6,9 @@ public class Pra1 {
 		// TODO Auto-generated method stub
 
 	
-		Flight f1=new Flight();
-		f1.fightnumber="120";
-		f1.availbaleseats=100;
-		f1.deparature="mubai";
-		f1.destination="tokyo";
-		f1.numberofseats=23;
-		Flight f2=new Flight();
-		Flight f3=new Flight();
+		Flight f1=new Flight("F1010", "mumbai", "pune", 90, 20);
+		System.out.println(f1.deparature);
+		
 	
 		
 	}
